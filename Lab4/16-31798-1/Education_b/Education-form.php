@@ -1,0 +1,26 @@
+<?php if(isset($_POST['Education'])){echo $_POST['Education'];}?>
+<form action="#" method="POST">
+	<fieldset>
+		<legend><b>Degree</b></legend>
+		<table>
+			<tr>
+				<td>
+					<input type="CheckBox" name="Education" value="SSC" > SSC
+				</td>
+				<td>
+					<input type="CheckBox" name="Education" value="HSC" > HSC
+				</td>
+			
+				<td>
+					<input type="CheckBox" name="Education" value="BSc" > BSc
+				</td>
+				<td>
+					<input type="CheckBox" name="Education" value="MSc" > MSc
+				</td>
+			</tr>
+		</table>
+
+		<hr/>
+		<input type="submit" name="submit" value="Submit" >
+	</fieldset>
+</form>

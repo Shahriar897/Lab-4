@@ -1,0 +1,1 @@
+<?php if(isset($_POST['Education'])){echo $_POST['Education'];}?>
